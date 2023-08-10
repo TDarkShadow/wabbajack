@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <TargetFramework Condition=" '$(OS)' == 'Windows_NT'">net6.0-windows</TargetFramework>
@@ -30,7 +30,7 @@
         <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
         <PackageReference Include="MessageBox.Avalonia" Version="2.3.1-prev2" />
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.2-mauipre.1.22102.15" />
-        <PackageReference Include="ReactiveUI.Fody" Version="18.3.1" />
+        <PackageReference Include="ReactiveUI.Fody" Version="19.4.1" />
         <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="6.0.2-mauipre.1.22102.15" />
     </ItemGroup>
     <ItemGroup>
