@@ -14,7 +14,7 @@
     <ItemGroup>
         <PackageReference Include="cesi.DTOs" Version="1.0.0" />
         <PackageReference Include="Chronic.Core" Version="0.4.0" />
-        <PackageReference Include="Dapper" Version="2.0.123" />
+        <PackageReference Include="Dapper" Version="2.1.15" />
         <PackageReference Include="Discord.Net.WebSocket" Version="3.8.1" />
         <PackageReference Include="FluentFTP" Version="42.0.1" />
         <PackageReference Include="GitInfo" Version="2.2.0" />
