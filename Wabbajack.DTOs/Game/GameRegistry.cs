@@ -140,6 +140,23 @@ public static class GameRegistry
             }
         },
         {
+            Game.Fallout76, new GameMetaData
+            {
+                Game = Game.Fallout76,
+                NexusName = "fallout76",
+                NexusGameId = 2590,
+                MO2Name = "Fallout 76",
+                MO2ArchiveName = "fallout76",
+                IsGenericMO2Plugin = true,
+                SteamIDs = new[] {1151340},
+                RequiredFiles = new[]
+                {
+                    "Fallout4.exe".ToRelativePath()
+                },
+                MainExecutable = "Fallout76.exe".ToRelativePath()
+            }
+        },
+        {
             Game.SkyrimVR, new GameMetaData
             {
                 Game = Game.SkyrimVR,

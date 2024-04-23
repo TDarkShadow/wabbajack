@@ -18,6 +18,7 @@ public enum Game
     [Description("Skyrim Special Edition")]
     SkyrimSpecialEdition,
     [Description("Fallout 4")] Fallout4,
+    [Description("Fallout 76")] Fallout76,
     [Description("Skyrim VR")] SkyrimVR,
     [Description("Fallout 4 VR")] Fallout4VR,
     [Description("Darkest Dungeon")] DarkestDungeon,
